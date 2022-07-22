@@ -13,13 +13,13 @@ function Navbar() {
 
         <div className="hidden md:flex justify-around items-center w-[40%]">
           <ul className="flex text-lg">
-            <li>About</li>
-            <li>Skills</li>
+            <li className="hover:border-b-[#A5C9CA] hover:border-b-4 duration-300">About</li>
+            <li className="ml-2 hover:border-b-[#A5C9CA] hover:border-b-4 duration-300">Skills</li>
           </ul>
-          <span>LOGO</span>
+          <span className="cursor-pointer">LOGO</span>
           <ul className="flex text-lg">
-            <li>Works</li>
-            <li>Contact</li>
+            <li className="hover:border-b-[#A5C9CA] hover:border-b-4 duration-300">Works</li>
+            <li className="ml-2 hover:border-b-[#A5C9CA] hover:border-b-4 duration-300">Contact</li>
           </ul>
         </div>
 
